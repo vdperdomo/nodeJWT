@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "driver": "mysql",
+        "host": {
+            "ENV": "DEV_DB_HOST"
+        },
+        "database": {
+            "ENV": "DEV_DB_DATABASE"
+        },
+        "multipleStatements": true,
+        "user": {
+            "ENV": "DEV_DB_USERNAME"
+        },
+        "password": {
+            "ENV": "DEV_DB_PASSWORD"
+        }
+    }
+}

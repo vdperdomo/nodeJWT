@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "extends": ["eslint:recommended", "google", "prettier"],
+  "plugins": ["jest"],
+  "env": {
+    "node": true,
+    "jest/globals": true
+  },
+  "rules": {
+    // Any override/additional rule that we might need
+    "linebreak-style": 0,
+    "object-curly-spacing": [1, "always"]
+  }
+}
